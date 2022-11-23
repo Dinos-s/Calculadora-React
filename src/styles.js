@@ -10,9 +10,8 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-    width: 80%;
+    width: 50%;
     background-color: #FFFFFF;
-    min-height: 350px;
 `;
 
 export const Row = styled.div`

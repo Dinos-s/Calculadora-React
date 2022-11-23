@@ -7,5 +7,9 @@ export const ButtonContainer = styled.button`
     color: #FFFFFF;
     font-size: 24px;
     font-weight: 700;
-    border-radius: 4px;
+    flex: 1;
+
+    &: hover{
+        opacity: 0.6;
+    }
 `;

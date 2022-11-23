@@ -1,9 +1,9 @@
 import { ButtonContainer } from "./style"
 
-export const Button = () => {
+export const Button = ({label, onClick}) => {
     return(<>
-        <ButtonContainer>
-            text
+        <ButtonContainer onClick={onClick}>
+            {label}
         </ButtonContainer>
     </>)
 }
